@@ -8,9 +8,7 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/img2.png")
-    img.setAttribute("alt", "light on")
   } else {
     img.setAttribute("src", "./assets/img1.png")
-    img.setAttribute("alt", "light off")
   }
 }
